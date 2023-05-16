@@ -1,0 +1,35 @@
+.slider {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+  
+.slides {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.slide {
+    text-align: center;
+    width: 300px;
+    flex-shrink: 0;
+}
+  
+.left-button,
+.right-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+}
+  
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
